@@ -19,11 +19,11 @@ function Product() {
   return (
     <div className="container w-[1230px] mt-8 bg-white rounded-sm">
       {/* Heading, Search Bar, and Buttons */}
-      <div className="flex justify-between items-center mb-4 mt-20 p-2">
+      <div className="lg:flex lg:flex-row lg:justify-between lg:items-center mb-4 mt-20 p-2 sm:flex-col sm:justify-center sm:items-center">
         <h1 className="text-l text-left ml-8">
           Products in Inventory
         </h1>
-        <div className="flex items-center ">
+        <div className="lg:flex lg:items-center lg:flex-row  sm:flex-col sm:justify-center sm:items-center">
           <button className="border-[#A0A0A0] text-[#A0A0A0] border-[1px]  px-4 py-2 m-2 rounded">Expired</button>
           <button className="border-[#A0A0A0] text-[#A0A0A0] border-[1px] px-4 py-2 m-2 rounded">Expiring in 7 days</button>
           <input

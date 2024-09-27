@@ -12,13 +12,13 @@ function App() {
   return (
     <div className="flex flex-row bg-gray-100 min-h-screen w-full">
       <Navbar onToggle={setNavbarOpen} />
-      <div className={`flex flex-col relative`}>
-        <div className="flex z-10 bg-white border-[#C6C6C6] border-[1px] items-center justify-between relative flex-wrap">
+      <div className={`flex flex-col relative  w-full`}>
+        <div className="flex z-10 bg-white border-[#C6C6C6] border-[1px] items-center justify-between relative ">
           <img src={search} className='absolute ml-[80px] h-4 w-4 md:h-4 md:w-4' /> 
           <input 
             type="text" 
             placeholder="Search..." 
-            className="border bg-[#F2F2F2] border-gray-300 rounded-md p-2 m-5 ml-[70px] pl-10 w-full md:w-1/4" 
+            className="border bg-[#F2F2F2] border-gray-300 rounded-md p-2 m-5 ml-[70px] pl-10 w-full sm:w-1/4 md:w-1/4" 
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />

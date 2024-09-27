@@ -43,12 +43,12 @@ const Navbar = ({ onToggle }) => {
     <div
       className={`bg-[#3A76D5] h-[2100px] text-white transition-transform duration-300 ${
         isOpen ? 'w-[371px] ' : 'w-[164px] '
-      } flex flex-col relative`}
+      } lg:flex lg:flex-col relative sm:hidden`}
     >
       {/* Toggle Button (Placed at the top) */}
       <div
   className={`z-40 absolute top-[40px] cursor-pointer  w-10 h-10 flex items-center justify-center  ${
-    isOpen ? ' left-[195px]' : 'left-[147px]'
+    isOpen ? ' left-[195px]' : 'left-[127px]'
   }`}
   onClick={toggleNavbar}
 >

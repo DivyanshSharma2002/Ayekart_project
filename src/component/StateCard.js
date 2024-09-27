@@ -25,7 +25,7 @@ function StateCard() {
       ];
     
       return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-20 w-[1230px]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-16 w-[1230px] ">
           {data.map((item, index) => (
             <State key={index} image={item.image} title={item.title} description={item.description} />
           ))}

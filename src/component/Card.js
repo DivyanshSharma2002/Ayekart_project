@@ -16,7 +16,7 @@ import curve2 from '../assets/curve2.png'
 const Card = () => {
   return (
     <div className='flex flex-col w-[530px]'>
-    <div className='flex lg:flex-row m-0 justify-between sm:flex-col'>
+    <div className='flex lg:flex-row m-0 justify-between sm:flex-col sm:justify-center sm:items-center md:flex-row'>
     <div className='h-[160px] w-[150px] rounded-[8px] border-[1px] border-[#246FE5] m-3 p-2 relative bg-white'>
       {/* Title and Icon */}
       <div className='flex items-center p-1'>
@@ -115,7 +115,7 @@ const Card = () => {
     {/* graph */}
     <div className="mt-10 p-4 border rounded-lg bg-white ">
       {/* Header Section with Title and Dropdown */}
-      <div className="flex justify-between items-center mb-4">
+      <div className="flex justify-between items-center mb-4 sm:justify-center sm:items-center">
         <h2 className="text-lg font-semibold">Sell Amount Summary</h2>
         {/* Year Selector Dropdown */}
         <div className="relative">
